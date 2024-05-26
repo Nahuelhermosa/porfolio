@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(250, 153, 73);
+    padding: 5px; /* Ajusta el relleno de la barra de navegación */
+    width: 100%;
+    border-radius: 7px;
+  }
+  
+  nav img {
+    width: 75px; /* Ancho fijo para la imagen */
+    margin-top: 5px; /* Ajusta el margen superior de la imagen */
+    margin-left: 20px; /* Ajusta el margen izquierdo de la imagen */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px -1px 0 rgb(10, 10, 10), 1px -1px 0 rgb(5, 5, 5), -1px 1px 0 rgb(3, 3, 3), 1px 1px 0 rgb(10, 10, 10);
+    font-size: 250%; /* Ajusta el tamaño de fuente utilizando un porcentaje */
+    margin-right: 20px;
+  }
+  
+  nav a:last-child {
+    margin-right: 20px; /* Agrega margen derecho al último enlace */
+  }
+  
+  /* Ajuste de margen para el ícono de búsqueda */
+ 
