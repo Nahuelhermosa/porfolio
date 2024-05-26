@@ -38,12 +38,12 @@ function Home() {
               <br /> 
               
               <div className="logos">
-                        <img src="icono-js.png" alt="icono js" className="icono" />
-                        <img src="icono-css.png" alt="icono css" className="icono" />
-                        <img src="icono-html1.png" alt="icono html" className="icono" />
-                        <img src="icono-reac1.png" alt="icono reac" className="icono" /> 
-                        <img src="icono-vue.png" alt="icono vue" className="icono" /> 
-                        <img src="icono-angular2.png" alt="icono angular" className="icono" />
+                    <img src="icono-js.png" alt="icono js" className="icono" />
+                    <img src="icono-css.png" alt="icono css" className="icono" />
+                    <img src="icono-html1.png" alt="icono html" className="icono" />
+                    <img src="icono-reac1.png" alt="icono reac" className="icono" />
+                    <img src="icono-angular.png" alt="icono angular" className="icono" />                      
+                    <img src="icono-vue.png" alt="icono vue" className="icono" /> 
                        
                 </div> 
              
