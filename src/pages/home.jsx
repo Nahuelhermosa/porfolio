@@ -18,7 +18,7 @@ function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-             Github{" "}
+             My Github{" "}
          
           <img  src="icono-github4.png" alt="icono js" className="icono" />
           </a>
