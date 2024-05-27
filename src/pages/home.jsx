@@ -9,7 +9,7 @@ function Home() {
             <header>  
             
       <div className="description" >
-        <p>
+        <p className="contacto">
           Contact: nahuel_pro_517@hotmail.com
         </p>
      
@@ -20,7 +20,7 @@ function Home() {
           >
              My Github{" "}
          
-          <img  src="icono-github4.png" alt="icono js" className="icono" />
+          <img  src="icono-github4.png" alt="icono js" className="icono2" />
           </a>
         
       </div>
@@ -29,14 +29,14 @@ function Home() {
 
             <div className="pictur">
               <div className="descripcion">
-              <h1>Nahuel Hermosa</h1>
-              <h2>Profesional Web Debeloper</h2>
-              <br />
-              <p>
+              <h1 className="nombre">Nahuel Eduardo Hermosa</h1>
+              <h2 className="nombre2">Professional Front End Debeloper</h2>
+             
+              <p className="nombre-descripcion">
               Hi, I'm Nahuel Hermosa, I'm passionate about Fron End Debeloper, I live in Buenos Aires, Argentina.
               </p>
-              <br /> 
               
+              <h2 className="nombre3">My skills:</h2>
               <div className="logos">
                     <img src="icono-js.png" alt="icono js" className="icono" />
                     <img src="icono-css.png" alt="icono css" className="icono" />
@@ -50,7 +50,7 @@ function Home() {
               </div>
                 <img className="imagen" src="ima1.png" alt="" />
             </div>
-          <Footer/>
+        <Footer/>
         </> 
     );
 }
