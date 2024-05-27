@@ -42,7 +42,7 @@ function Home() {
                     <img src="icono-css.png" alt="icono css" className="icono" />
                     <img src="icono-html1.png" alt="icono html" className="icono" />
                     <img src="icono-reac1.png" alt="icono reac" className="icono" />
-                    <img src="icono-angular.png" alt="icono angular" className="icono" />                      
+                    <img src="icono-angular4.png" alt="icono angular" className="icono" />                      
                     <img src="icono-vue.png" alt="icono vue" className="icono" /> 
                        
                 </div> 
