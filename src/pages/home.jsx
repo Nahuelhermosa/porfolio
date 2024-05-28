@@ -15,7 +15,7 @@ function Home() {
             rel="noopener noreferrer"
           >
           <img  src="icono-linkedin.png" alt="icono linkedin" className="icono1" /> 
-           My Cv{" "}
+           My Linkedin{" "}
           </a>
      
           <a className="contacto"

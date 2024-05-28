@@ -13,7 +13,15 @@ export default function Footer () {
           <img  src="icono-vercel2.png" alt="icono linkedin" className="icono2" /> 
           Vercel   My Projects{" "}
           </a>
-          <p>Contact: nahuel_pro_517@hotmail.com</p>
+          <a className="contacto"
+             href="mailto:nahuel_pro_517@hotmail.com?subject=Contacto%20desde%20tu%20sitio%20web&body=Hola%2C%20Nahuel!"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+             My Contact{" "}
+         
+          <img  src="sobre5.png" alt="icono github" className="icono2" />
+          </a>
           </div>
         </footer>
     )
