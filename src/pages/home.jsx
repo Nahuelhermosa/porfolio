@@ -9,18 +9,23 @@ function Home() {
             <header>  
             
       <div className="description" >
-        <p className="contacto">
-          Contact: nahuel_pro_517@hotmail.com
-        </p>
+         <a className="contacto"
+            href="https://www.linkedin.com/in/nahuel-eduardo-hermosa-035799277/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          <img  src="icono-linkedin.png" alt="icono linkedin" className="icono1" /> 
+           My Cv{" "}
+          </a>
      
-          <a
+          <a className="contacto"
             href="https://github.com/Nahuelhermosa"
             target="_blank"
             rel="noopener noreferrer"
           >
              My Github{" "}
          
-          <img  src="icono-github4.png" alt="icono js" className="icono2" />
+          <img  src="icono-github4.png" alt="icono github" className="icono2" />
           </a>
         
       </div>
