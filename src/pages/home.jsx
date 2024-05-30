@@ -25,7 +25,7 @@ function Home() {
           >
              My Github{" "}
          
-          <img  src="icono-github4.png" alt="icono github" className="icono2" />
+          <img  src="icono-github1.png" alt="icono github" className="icono2" />
           </a>
         
       </div>
@@ -35,10 +35,10 @@ function Home() {
             <div className="pictur">
               <div className="descripcion">
               <h1 className="nombre">Nahuel Eduardo Hermosa</h1>
-              <h2 className="nombre2">Professional Front End Debeloper</h2>
+              <h2 className="nombre2">Professional Front End Developer</h2>
              
               <p className="nombre-descripcion">
-              Hi, I'm Nahuel Hermosa, I'm passionate about Fron End Debeloper, I live in Buenos Aires, Argentina.
+              Hi, I'm Nahuel Hermosa, I'm passionate about Fron End Developer, I live in Buenos Aires, Argentina.
               </p>
               
               <h2 className="nombre3">My skills:</h2>

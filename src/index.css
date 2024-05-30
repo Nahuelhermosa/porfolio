@@ -83,7 +83,7 @@ body {
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-end-rgb));
 
     
     background-image: url('/10-image.jpg'); /* Ruta a tu imagen de fondo */
