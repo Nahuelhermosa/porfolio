@@ -32,7 +32,7 @@
   color: rgb(250, 250, 250);
   display: flex;
   justify-content: center;
-  font-size: 200%;
+  font-size: 270%;
   margin-bottom: 2rem;
 }
 
@@ -40,7 +40,7 @@
   color: rgb(243, 248, 244);
   display: flex;
   justify-content: center;
-  font-size: 200%;
+  font-size: 300%;
   margin-bottom: 1rem;
 }
 
@@ -51,6 +51,7 @@
 }
 
 .description {
+  color: #f1f8f2;
   display: flex;
   justify-content: space-between;
   font-size: 0.85rem;
@@ -107,6 +108,9 @@
   .imagen {
     max-width: 80%; /* Ajustamos el tamaño de la imagen */
     margin: 0 auto 2rem auto; /* Centramos la imagen y añadimos margen inferior */
+  }
+  .description {
+    color: rgb(250, 250, 250);
   }
 
   .descripcion {

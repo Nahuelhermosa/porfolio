@@ -25,7 +25,7 @@ function Home() {
           >
              My Github{" "}
          
-          <img  src="icono-github1.png" alt="icono github" className="icono2" />
+          <img  src="icono-github4.png" alt="icono github" className="icono2" />
           </a>
         
       </div>
