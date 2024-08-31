@@ -32,8 +32,9 @@
   color: rgb(250, 250, 250);
   display: flex;
   justify-content: center;
-  font-size: 270%;
-  margin-bottom: 2rem;
+  font-size: 210%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .nombre3 {
@@ -45,9 +46,9 @@
 }
 
 .nombre-descripcion {
-  font-size: 200%;
+  font-size: 160%;
   color: #f1f8f2;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .description {

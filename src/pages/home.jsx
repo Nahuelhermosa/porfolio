@@ -35,10 +35,11 @@ function Home() {
             <div className="pictur">
               <div className="descripcion">
               <h1 className="nombre">Nahuel Eduardo Hermosa</h1>
-              <h2 className="nombre2">Professional Front End Developer</h2>
-             
+              <h2 className="nombre2">Professional Front End Developer and Full Stack</h2>
+              
               <p className="nombre-descripcion">
-              Hi, I'm Nahuel Hermosa, I'm passionate about Fron End Developer, I live in Buenos Aires, Argentina.
+              Hi, I'm Nahuel Hermosa, a passionate Front End Developer based in Buenos Aires, Argentina.
+              I specialize in building dynamic and responsive web applications using React, Next.js, and Vue.js. My expertise lies in creating seamless user experiences by effectively leveraging APIs to enhance the functionality and performance of my applications.
               </p>
               
               <h2 className="nombre3">My skills:</h2>
@@ -47,8 +48,9 @@ function Home() {
                     <img src="icono-css.png" alt="icono css" className="icono" />
                     <img src="icono-html1.png" alt="icono html" className="icono" />
                     <img src="icono-reac1.png" alt="icono reac" className="icono" />
-                    <img src="icono-angular4.png" alt="icono angular" className="icono" />                      
+                    <img src="icono-angular.png" alt="icono angular" className="icono" />                      
                     <img src="icono-vue.png" alt="icono vue" className="icono" /> 
+                    <img src="icono-nodejs.png" alt="icono node" className="icono" />
                        
                 </div> 
              
