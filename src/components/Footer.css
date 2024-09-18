@@ -4,9 +4,9 @@
       
         color: #fafafa;
         text-shadow: -1px -1px 0 rgb(10, 10, 10), 1px -1px 0 rgb(5, 5, 5), -1px 1px 0 rgb(3, 3, 3), 1px 1px 0 rgb(10, 10, 10);
-        font-size:150% ; 
+        font-size:100% ; 
         bottom: 0;
-        margin-top: 5px;
+        
         display: flex;
         justify-content: space-between;
        
