@@ -44,6 +44,18 @@
   font-size:250%;
   margin-bottom: 1rem;
 }
+/* Diferenciar el enlace "My Projects" */
+.nombre-descripcion a {
+  color: #67a5f7; /* Cambia este valor al color que prefieras */
+  font-weight: bold;
+  text-decoration: dashed;
+}
+
+.nombre-descripcion a:hover {
+  color: #193fe6; /* Color más oscuro para hover */
+  text-decoration: none;
+}
+
 
 .nombre-descripcion {
   font-size: 160%;
