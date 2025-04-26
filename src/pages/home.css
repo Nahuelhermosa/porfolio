@@ -24,37 +24,52 @@
   color: rgb(253, 253, 253);
   display: flex;
   justify-content: center;
-  font-size: 400%;
+  font-size: 420%;
   margin-bottom: 1rem;
 }
 
 .nombre2 {
-  color: rgb(253, 253, 253);
+  color: #f5de7a;
   display: flex;
   justify-content: center;
-  font-size: 240%;
+  font-size: 220%;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
 
 .nombre3 {
-  color: rgb(253, 253, 253);
+  color: #f5de7a;
   display: flex;
   justify-content: center;
   font-size:250%;
   margin-bottom: 1rem;
 }
-.descripcion .contacto {
-  align-items: center;
-  font-size: 250%;
-  color: #97d0e6;
-  font-weight: bold;
-  text-decoration: dashed;
+.all-projects {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
 }
-.contacto:hover {
-  color: #193fe6;
+
+.descripcion .contacto {
+  display: inline-block;
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: #47a9eb;
+  font-weight: 600;
+  padding: 0.6rem 1.5rem;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.descripcion .contacto:hover {
+  background-color:#182ac9; 
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
   text-decoration: none;
 }
+
 
 
 .nombre-descripcion {

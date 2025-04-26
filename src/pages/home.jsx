@@ -35,19 +35,14 @@ function Home() {
             <div className="pictur">
               <div className="descripcion">
               <h1 className="nombre">Nahuel Eduardo Hermosa</h1>
-              <h2 className="nombre2">Professional Front End Developer, Full Stack.</h2>
+              <h2 className="nombre2">Professional Front End Developer and Full Stack.</h2>
               
               <p className="nombre-descripcion">
               Hi, I'm Nahuel Hermosa, a passionate Front End Developer based in Buenos Aires, Argentina.
               I specialize in building dynamic and responsive web applications using React, Next.js, and Vue.js. My expertise lies in creating seamless user experiences by effectively leveraging APIs to enhance the functionality and performance of my applications. 
            </p>
-           <a className="contacto"
-            href="https://vercel.com/nahuelhermosas-projects"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-           ALL PROJECTS{" "}
-          </a>.
+          
+
              
               
               <h2 className="nombre3">My skills:</h2>
@@ -61,9 +56,16 @@ function Home() {
                     <img src="icono-angular.png" alt="icono angular" className="icono" /> 
                      
                 </div> 
-             
+              <div className="all-projects">
+           <a className="contacto"
+            href="https://vercel.com/nahuelhermosas-projects"
+            target="_blank"
+            rel="noopener noreferrer">
+            MY PROJECTS
+           </a>
+           </div>
               </div>
-                <img className="imagen" src="20.jpg" alt="" />
+                <img className="imagen" src="1234.jpg" alt="" />
             </div>
         <Footer/>
         </> 
