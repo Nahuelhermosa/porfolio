@@ -39,15 +39,16 @@ function Home() {
               
               <p className="nombre-descripcion">
               Hi, I'm Nahuel Hermosa, a passionate Front End Developer based in Buenos Aires, Argentina.
-              I specialize in building dynamic and responsive web applications using React, Next.js, and Vue.js. My expertise lies in creating seamless user experiences by effectively leveraging APIs to enhance the functionality and performance of my applications, 
-          <a className="contacto"
+              I specialize in building dynamic and responsive web applications using React, Next.js, and Vue.js. My expertise lies in creating seamless user experiences by effectively leveraging APIs to enhance the functionality and performance of my applications. 
+           </p>
+           <a className="contacto"
             href="https://vercel.com/nahuelhermosas-projects"
             target="_blank"
             rel="noopener noreferrer"
           >
-           My Projects{" "}
+           ALL PROJECTS{" "}
           </a>.
-              </p>
+             
               
               <h2 className="nombre3">My skills:</h2>
               <div className="logos">

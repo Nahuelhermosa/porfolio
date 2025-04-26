@@ -44,15 +44,15 @@
   font-size:250%;
   margin-bottom: 1rem;
 }
-/* Diferenciar el enlace "My Projects" */
-.nombre-descripcion a {
-  color: #67a5f7; /* Cambia este valor al color que prefieras */
+.descripcion .contacto {
+  align-items: center;
+  font-size: 250%;
+  color: #97d0e6;
   font-weight: bold;
   text-decoration: dashed;
 }
-
-.nombre-descripcion a:hover {
-  color: #193fe6; /* Color más oscuro para hover */
+.contacto:hover {
+  color: #193fe6;
   text-decoration: none;
 }
 
@@ -136,5 +136,45 @@
   .nombre3,
   .nombre-descripcion {
     text-align: center; /* Centramos todo el texto */
+  }
+}
+
+@media (max-width: 480px) {
+  .nombre {
+    font-size: 250%;
+  }
+
+  .nombre2 {
+    font-size: 200%;
+  }
+
+  .nombre3 {
+    font-size: 200%;
+  }
+
+  .nombre-descripcion {
+    font-size: 130%;
+  }
+
+  .descripcion {
+    font-size: 90%;
+    padding: 1rem;
+  }
+
+  .imagen {
+    max-width: 100%;
+    margin-left: 0;
+    padding: 0.5rem;
+  }
+
+  .logos {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .logo {
+    max-width: 70px;
+    margin: 0;
   }
 }
