@@ -57,17 +57,15 @@ function Home() {
                     <img src="icono-vue.png" alt="icono vue" className="icono" /> 
                     <img src="icono-angular.png" alt="icono angular" className="icono" /> 
                      
-                </div> 
-              <div className="all-projects">
+                </div>
+
+           <div className="all-projects">
            <a className="contacto"
             href="https://vercel.com/nahuelhermosas-projects"
             target="_blank"
             rel="noopener noreferrer">
             MY PROJECTS
            </a>
-           
-           
-          
            <Link className="contacto" to="/titles">
            MY TITLES
            </Link>

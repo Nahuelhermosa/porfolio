@@ -195,4 +195,15 @@
     max-width: 70px;
     margin: 0;
   }
+
+  .all-projects {
+    flex-direction: column; /* Cambia de fila a columna */
+    gap: 1rem; /* Reduce el espacio entre botones */
+    align-items: center; /* Centra los botones */
+  }
+
+  .all-projects button {
+    width: 80%; /* Opcional: que los botones se hagan más anchos */
+    max-width: 250px; /* Opcional: no tan gigantes */
+  }
 }
