@@ -1,6 +1,8 @@
 
 import "./home.css";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
+
 
 function Home() {
 
@@ -63,7 +65,14 @@ function Home() {
             rel="noopener noreferrer">
             MY PROJECTS
            </a>
+           
+           
+          
+           <Link className="contacto" to="/titles">
+           MY TITLES
+           </Link>
            </div>
+
               </div>
                 <img className="imagen" src="1234.jpg" alt="" />
             </div>

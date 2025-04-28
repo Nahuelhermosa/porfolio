@@ -47,8 +47,11 @@
 .all-projects {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 5rem; /* Espacio entre los dos botones */
   margin: 2rem 0;
 }
+
 
 .descripcion .contacto {
   display: inline-block;
