@@ -6,7 +6,7 @@
 }
 
 .imagen {
-  max-width: 35%;
+  max-width: 29%;
   padding: 1rem;
   margin: 1%;
   margin-left: 2rem;
@@ -48,16 +48,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5rem; /* Espacio entre los dos botones */
+  gap: 5rem; 
   margin: 2rem 0;
 }
 
 
 .descripcion .contacto {
   display: inline-block;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #fff;
-  background-color: #47a9eb;
+  background-color: #005a96;
   font-weight: 600;
   padding: 0.6rem 1.5rem;
   border-radius: 0.75rem;

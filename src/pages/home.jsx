@@ -72,7 +72,7 @@ function Home() {
            </div>
 
               </div>
-                <img className="imagen" src="1234.jpg" alt="" />
+                <img className="imagen" src="123.jpg" alt="" />
             </div>
         <Footer/>
         </> 
