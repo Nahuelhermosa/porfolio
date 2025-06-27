@@ -60,12 +60,7 @@ function Home() {
                 </div>
 
            <div className="all-projects">
-           <a className="contacto"
-            href="https://vercel.com/nahuelhermosas-projects"
-            target="_blank"
-            rel="noopener noreferrer">
-            MY PROJECTS
-           </a>
+        
              <Link className="contacto" to="/MyProjects">
            MY PROJECTS
            </Link>
