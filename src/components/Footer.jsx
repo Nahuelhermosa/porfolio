@@ -1,9 +1,7 @@
 import './Footer.css'
 export default function Footer () {
     return (
-        <footer className='footer'>
-        
-            
+        <footer className='footer'>     
         <div className="description" >
             <a className="contacto"
             href="https://vercel.com/nahuelhermosas-projects"

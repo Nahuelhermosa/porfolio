@@ -66,6 +66,9 @@ function Home() {
             rel="noopener noreferrer">
             MY PROJECTS
            </a>
+             <Link className="contacto" to="/MyProjects">
+           MY PROJECTS
+           </Link>
            <Link className="contacto" to="/titles">
            MY TITLES
            </Link>
