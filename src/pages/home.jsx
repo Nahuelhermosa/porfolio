@@ -48,24 +48,24 @@ function Home() {
              
               
               <h2 className="nombre3">My skills:</h2>
-              <div className="logos">
-                    <img src="icono-js.png" alt="icono js" className="icono" />
-                    <img src="icono-css.png" alt="icono css" className="icono" />
-                    <img src="icono-html1.png" alt="icono html" className="icono" />
-                     <img src="icono-nodejs.png" alt="icono node" className="icono" />
-                     <img src="icono-reac1.png" alt="icono reac" className="icono" />                     
-                    <img src="icono-vue.png" alt="icono vue" className="icono" /> 
-                    <img src="icono-angular.png" alt="icono angular" className="icono" /> 
+           <div className="logos">
+
+            <img src="icono-js.png" alt="icono js" className="icono" />
+            <img src="icono-css.png" alt="icono css" className="icono" />
+            <img src="icono-html1.png" alt="icono html" className="icono" />
+            <img src="icono-nodejs.png" alt="icono node" className="icono" />
+            <img src="icono-reac1.png" alt="icono reac" className="icono" />                     
+            <img src="icono-vue.png" alt="icono vue" className="icono" /> 
+            <img src="icono-angular.png" alt="icono angular" className="icono" /> 
                      
-                </div>
+           </div>
 
            <div className="all-projects">
-        
-             <Link className="contacto" to="/MyProjects">
-           MY PROJECTS
-           </Link>
            <Link className="contacto" to="/titles">
            MY TITLES
+           </Link>
+           <Link className="contacto" to="/MyProjects">
+           MY PROJECTS
            </Link>
            </div>
 
