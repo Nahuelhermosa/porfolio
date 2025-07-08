@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import Footer from "./Footer";
+import "./MyProjects.css";
 
 function MyProjects() {
   return (
@@ -21,18 +22,18 @@ function MyProjects() {
         </div>
         </header> 
 
-        <h1 className="titulo">My Projects</h1>
-        <main className="titles-content">
-        <div className="titles-gallery">
+        <h1 className="titulo2">My Projects</h1>
+        <main className="titles-content2">
+        <div className="titles-gallery2">
           <h1>Escalibur web</h1>  
         <a
         href="https://comercio-escalibur.vercel.app/"
         target="_blank"
         rel="noopener noreferrer"
           >
-          <img src="/portadaEscaliburWeb.png" alt="Título 1" className="titulo-img" />
+          <img src="/portadaEscaliburWeb.png" alt="Título 1" className="titulo-img2" />
         </a>
-        <h2>E-commerce built with Next.js, featuring API integration, dynamic CSS, responsive design, and a shopping cart.</h2>
+        <h2 className="descripcion-proyecto">E-commerce built with Next.js, featuring API integration, dynamic CSS, responsive design, and a shopping cart.</h2>
           <br />
      <h1>Servisweb</h1>
         <a
@@ -40,9 +41,9 @@ function MyProjects() {
       target="_blank"
       rel="noopener noreferrer"
           >
-          <img src="/portadaServisWeb.png" alt="Título 4" className="titulo-img" />
+          <img src="/portadaServisWeb.png" alt="Título 4" className="titulo-img2" />
         </a> 
-        <h2>Website built with Next.js, featuring dynamic CSS, responsive design, contact form, and form validation.</h2>
+        <h2 className="descripcion-proyecto">Website built with Next.js, featuring dynamic CSS, responsive design, contact form, and form validation.</h2>
          <br /> 
           
           <h1>Vintage Lab</h1>  
@@ -51,9 +52,9 @@ function MyProjects() {
         target="_blank"
         rel="noopener noreferrer"
           >
-          <img src="/portadaProyectoReact.png" alt="Título 3" className="titulo-img" />
+          <img src="/portadaProyectoReact.png" alt="Título 3" className="titulo-img2" />
         </a> 
-        <h2>E-commerce built with Vite, featuring API integration, user management, validations, and a shopping cart.</h2>
+        <h2 className="descripcion-proyecto">E-commerce built with Vite, featuring API integration, user management, validations, and a shopping cart.</h2>
           <br />
           <h1>La Tienda</h1>
          
@@ -62,9 +63,9 @@ function MyProjects() {
       target="_blank"
       rel="noopener noreferrer"
           >
-          <img src="/portadaProyectoAngular.png" alt="Título 2" className="titulo-img" />
+          <img src="/portadaProyectoAngular.png" alt="Título 2" className="titulo-img2" />
         </a>
-         <h2>E-commerce built with Angular, featuring API integration, user management, and validations</h2>
+         <h2 className="descripcion-proyecto">E-commerce built with Angular, featuring API integration, user management, and validations</h2>
           <br />
      
 

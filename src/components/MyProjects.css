@@ -1,0 +1,44 @@
+.titulo2 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 4rem; /* Tamaño lindo */
+  color: #faf7f7; /* Color suave */
+}
+
+.titles-content2 {
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  .titles-gallery2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* espacio entre las fotos */
+    margin-top: 30px;
+   
+  }
+
+  .descripcion-proyecto {
+  max-width: 600px;
+  width: 90%; /* igual que las imágenes */
+  margin: 0 auto; /* para centrar */
+  color: #f0f0f0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: center;
+}
+  
+  .titulo-img2 {
+    width: 90%;
+    max-width: 600px; /* máximo tamaño */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* sombra linda */
+    transition: transform 0.3s ease;
+  }
+  
+  .titulo-img2:hover {
+    transform: scale(1.05); /* efecto zoom al pasar el mouse */
+  }
+  
