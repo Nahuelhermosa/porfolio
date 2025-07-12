@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 .pictur {
   display: flex;
   padding: 1.2rem;
@@ -12,7 +14,7 @@
   display: block;
   max-width:390px;
   width: 500%;
-  padding: 2rem;
+  padding: 2.5rem;
   margin: 2rem auto 0 auto; /* centrado horizontal + espacio superior */
   border-radius: 16rem;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4); /* mejora visual */
@@ -26,29 +28,56 @@
  
 }
 
+
 .nombre {
-  color: rgb(253, 253, 253);
+  color: #ffffff;
   display: flex;
   justify-content: center;
-  font-size: 420%;
- 
+  font-size: 3rem;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
 }
 
+
 .nombre2 {
-  color: #f5de7a;
+  color: #f5f5f5;
   display: flex;
   justify-content: center;
-  font-size: 180%;
- 
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
 }
+
+.nombre-descripcion {
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  margin-bottom: 1rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+}
+
 
 .nombre3 {
   color: #f5de7a;
   display: flex;
   justify-content: center;
-  font-size:250%;
-  
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
+  margin-bottom: 1rem;
 }
+
+
+
 .all-projects {
   display: flex;
   justify-content: center;
@@ -109,11 +138,6 @@
 
 
 
-.nombre-descripcion {
-  font-size: 150%;
-  color: rgb(253, 253, 253);
-  margin-bottom: 1rem;
-}
 
 .description {
   color: #f1f8f2;

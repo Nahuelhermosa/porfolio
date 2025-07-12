@@ -36,8 +36,8 @@ function Home() {
 
             <div className="pictur">
               <div className="descripcion">
-              <h1 className="nombre">Nahuel Eduardo Hermosa</h1>
-              <h2 className="nombre2">Professional Front End Developer and Full Stack.</h2>
+              <h1 className="nombre">NAHUEL EDUARDO HERMOSA</h1>
+              <h2 className="nombre2"> FULL STACK & FRONT END </h2>
               <br />
               <p className="nombre-descripcion">
               Hi, I'm Nahuel Hermosa, a passionate Front End Developer based in Buenos Aires, Argentina.

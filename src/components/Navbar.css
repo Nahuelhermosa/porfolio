@@ -3,7 +3,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     background-color: rgb(250, 153, 73);
-    padding: 5px; /* Ajusta el relleno de la barra de navegación */
+    /* Ajusta el relleno de la barra de navegación */
     width: 100%;
     border-radius: 7px;
   }

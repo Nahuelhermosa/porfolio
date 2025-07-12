@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 .main {
   max-width: 1100px;
   margin: 0 auto;
@@ -20,27 +21,36 @@
 
 
 .titulo2 {
-  text-align: center;
-  margin-top: 30px;
+ color: #ffffff;
+  display: flex;
+  justify-content: center;
   font-size: 3.5rem;
-  color: #faf7f7;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
   letter-spacing: 1px;
+  margin-bottom: 1rem;
 }
 
 /* Nuevo estilo para la introducción */
 .intro-text {
-  font-size: 1.2rem;
-  color: #dcdcdc;
-  max-width: 800px;
-  margin: 1.5rem auto 2rem auto;
-  line-height: 1.7;
-  padding: 0 1rem;
+ color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
 }
 
 .titles-content2 {
   padding: 20px;
   text-align: center;
+    font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
 }
 
 .titles-gallery2 {
@@ -67,9 +77,14 @@
   max-width: 600px;
   width: 90%;
   margin: 0 auto;
-  color: #f0f0f0;
-  font-size: 1.15rem;
-  line-height: 1.6;
-  text-align: center;
-  margin-top: 1rem;
+  
+
+   color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
 }

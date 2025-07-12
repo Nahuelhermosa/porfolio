@@ -29,7 +29,7 @@ function MyProjects() {
 
         <div className="titles-content2">
         <div className="titles-gallery2">
-          <h1>Escalibur web</h1>  
+          <h1 className="nombre-proyectos">Escalibur web</h1>  
         <a
         href="https://comercio-escalibur.vercel.app/"
         target="_blank"
@@ -39,7 +39,7 @@ function MyProjects() {
         </a>
         <h2 className="descripcion-proyecto">E-commerce built with Next.js, featuring API integration, dynamic CSS, responsive design, and a shopping cart.</h2>
           <br />
-     <h1>Servisweb</h1>
+     <h1 className="nombre-proyectos">Servisweb</h1>
         <a
       href="https://servis-rust.vercel.app/"
       target="_blank"
@@ -50,7 +50,7 @@ function MyProjects() {
         <h2 className="descripcion-proyecto">Website built with Next.js, featuring dynamic CSS, responsive design, contact form, and form validation.</h2>
          <br /> 
           
-          <h1>Vintage Lab</h1>  
+          <h1 className="nombre-proyectos">Vintage Lab</h1>  
         <a
         href="https://web-project-pi-bice.vercel.app/"
         target="_blank"
@@ -60,7 +60,7 @@ function MyProjects() {
         </a> 
         <h2 className="descripcion-proyecto">E-commerce built with Vite, featuring API integration, user management, validations, and a shopping cart.</h2>
           <br />
-          <h1>La Tienda</h1>
+          <h1 className="nombre-proyectos">La Tienda</h1>
          
           <a
       href="https://angular-project-self.vercel.app/"
