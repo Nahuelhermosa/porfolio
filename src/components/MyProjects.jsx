@@ -6,7 +6,7 @@ function MyProjects() {
   return (
     <>
       <header>  
-    
+        
         <div className="description" >
         <NavLink to="/" className="contacto">
             <img src="inicio.png" alt="home" className="inicio" />
@@ -21,9 +21,13 @@ function MyProjects() {
            </a>
         </div>
         </header> 
-
+       <main className="main">
         <h1 className="titulo2">My Projects</h1>
-        <main className="titles-content2">
+        <h2 className="intro-text">
+        This section showcases a curated selection of my frontend and full stack projects developed using React, Next.js, Angular, and Vite. All applications are deployed on Vercel and demonstrate my skills in API integration, responsive design, dynamic styling, user interaction, and modern web development practices.
+        </h2>
+
+        <div className="titles-content2">
         <div className="titles-gallery2">
           <h1>Escalibur web</h1>  
         <a
@@ -70,8 +74,8 @@ function MyProjects() {
      
 
         </div>
-        </main>
-
+        </div>
+</main>
         <Footer />
     </>     
          );
