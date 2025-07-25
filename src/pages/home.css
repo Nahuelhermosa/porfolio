@@ -228,19 +228,19 @@
 
 @media (max-width: 480px) {
   .nombre {
-    font-size: 400%;
+    font-size: 300%;
   }
 
   .nombre2 {
-    font-size: 200%;
+    font-size: 100%;
   }
 
   .nombre3 {
-    font-size: 200%;
+    font-size: 100%;
   }
 
   .nombre-descripcion {
-    font-size: 130%;
+    font-size: 100%;
   }
 
   .descripcion {
@@ -255,13 +255,13 @@
   }
 
   .logos {
-    flex-direction: column;
+    flex-direction: inherit;
     align-items: center;
     gap: 1rem;
   }
 
   .logo {
-    max-width: 70px;
+    max-width: 50px;
     margin: 0;
   }
 
