@@ -254,15 +254,11 @@
     padding: 0.5rem;
   }
 
-  .logos {
-    flex-direction: row;
-    align-items: center;
-    gap: 0.2rem;
+   .logos {
+    display: none; /* Oculta los íconos en móviles */
   }
-
-  .logo {
-    max-width: 1px;
-    margin: 0;
+  .nombre3 {
+    display: none; /* Opcional: también oculta el título "My skills" */
   }
 
   .all-projects {
