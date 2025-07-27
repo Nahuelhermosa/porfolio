@@ -255,13 +255,13 @@
   }
 
   .logos {
-    flex-direction: column;
+    flex-direction: inherit;
     align-items: center;
     gap: 1rem;
   }
 
   .logo {
-    max-width: 10px;
+    max-width: 3px;
     margin: 0;
   }
 
