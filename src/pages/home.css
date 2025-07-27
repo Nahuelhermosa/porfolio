@@ -241,6 +241,7 @@
 
   .nombre-descripcion {
     font-size: 100%;
+    padding-bottom: 1rem;
   }
 
   .descripcion {
