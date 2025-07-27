@@ -42,6 +42,25 @@
   letter-spacing: 1px;
   margin-bottom: 1rem;
 }
+.nombre-proyectos {
+  color: #ffffff;
+  display: flex;
+  align-items: center; /* Centra verticalmente texto e imagen */
+  justify-content: center;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  gap: 0.5rem; /* Espacio entre texto e icono */
+}
+
+.nombre-proyectos .icono {
+  width: 1.5em;   /* Tamaño relativo al texto */
+  height: auto;
+  vertical-align: middle; /* Alineación con el texto */
+}
+
 
 .titles-content2 {
   padding: 20px;
@@ -91,14 +110,25 @@
 
 
 @media (max-width: 480px) {
-  .nombre-proyectos{  
-  color: #ffffff;
+  .titulo2{
+   color: #ffffff;
   display: flex;
   justify-content: center;
-  font-size: 3.5rem;
+  font-size: 2rem;
   font-family: 'Poppins', sans-serif;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
   letter-spacing: 1px;
   margin-bottom: 1rem;
+  }
+
+  .nombre-proyectos{
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-size:1rem;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
   }
 }
