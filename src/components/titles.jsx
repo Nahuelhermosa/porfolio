@@ -29,6 +29,7 @@ function Titles() {
 
         <main className="titles-content">
         <div className="titles-gallery">
+          <img src="/title-python.png" alt="Título 1" className="titulo-img" />
           <img src="/title-fullstack.jpg" alt="Título 1" className="titulo-img" />
           <img src="/title-frontend.jpg" alt="Título 2" className="titulo-img" />
           <img src="/title-react.jpg" alt="Título 3" className="titulo-img" />

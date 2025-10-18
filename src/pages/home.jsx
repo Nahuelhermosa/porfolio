@@ -37,11 +37,13 @@ function Home() {
             <div className="pictur">
               <div className="descripcion">
               <h1 className="nombre">NAHUEL EDUARDO HERMOSA</h1>
-              <h2 className="nombre2"> FULL STACK & FRONT END </h2>
+              <h2 className="nombre2"> FULL STACK </h2>
               <br />
               <p className="nombre-descripcion">
-              Hi, I'm Nahuel Hermosa, a passionate Front End Developer based in Buenos Aires, Argentina.
-              I specialize in building dynamic and responsive web applications using React, Next.js, and Vue.js. My expertise lies in creating seamless user experiences by effectively leveraging APIs to enhance the functionality and performance of my applications. 
+          Hi, I'm Nahuel Hermosa
+I specialize in building dynamic and responsive web applications using React, Next.js, and Vue.js. My expertise lies in creating seamless user experiences by effectively leveraging APIs to enhance functionality and performance.
+
+Recently, I have expanded my skill set into backend development, gaining solid experience with Python and the Django framework. This full-stack perspective allows me to build complete, data-driven web applications — from intuitive front-end interfaces to robust and scalable back-end systems.
            </p>
           
 
@@ -51,13 +53,13 @@ function Home() {
            <div className="logos">
 
             <img src="icono-js.png" alt="icono js" className="icono" />
-            <img src="icono-css.png" alt="icono css" className="icono" />
-            <img src="icono-html1.png" alt="icono html" className="icono" />
+           <img src="icono-python2.png" alt="icono html" className="icono" />
+             <img src="icono-reac1.png" alt="icono reac" className="icono" />     
              <img src="icono-vue.png" alt="icono vue" className="icono" />  
-            <img src="icono-reac1.png" alt="icono reac" className="icono" />     
-            <img src="icono-angular.png" alt="icono angular" className="icono" />  
-                         
             <img src="icono-nodejs.png" alt="icono node" className="icono" />
+            <img src="icono-css.png" alt="icono css" className="icono" /> 
+            <img src="icono-angular.png" alt="icono angular" className="icono" />              
+            
             
                      
            </div>
