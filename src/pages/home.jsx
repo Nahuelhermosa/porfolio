@@ -41,7 +41,7 @@ function Home() {
               <br />
               <p className="nombre-descripcion">
           Hi, I'm Nahuel Hermosa
-I specialize in building dynamic and responsive web applications using React, Next.js, and Vue.js. My expertise lies in creating seamless user experiences by effectively leveraging APIs to enhance functionality and performance.
+I specialize in building dynamic and responsive web applications using Python, React, Next.js, and Vue.js. My expertise lies in creating seamless user experiences by effectively leveraging APIs to enhance functionality and performance.
 
 Recently, I have expanded my skill set into backend development, gaining solid experience with Python and the Django framework. This full-stack perspective allows me to build complete, data-driven web applications — from intuitive front-end interfaces to robust and scalable back-end systems.
            </p>
