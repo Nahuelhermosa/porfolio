@@ -24,7 +24,8 @@ function MyProjects() {
        <main className="main">
         <h1 className="titulo2">My Projects</h1>
         <h2 className="intro-text">
-        This section showcases a curated selection of my frontend and full stack projects developed using React, Next.js, Angular, and Vite. All applications are deployed on Vercel and demonstrate my skills in API integration, responsive design, dynamic styling, user interaction, and modern web development practices.
+       This section showcases a curated selection of my frontend and full stack projects developed using React, Next.js, Angular, and Vite. All applications are deployed on Vercel and demonstrate my skills in API integration, responsive design, dynamic styling, user interaction, and modern web development practices.
+my expertise to the backend side by learning Python and Django, developing CRUD applications, implementing authentication systems, and integrating databases and RESTful APIs — further strengthening my capabilities as a full stack developer.
         </h2>
 
         <div className="titles-content2">
