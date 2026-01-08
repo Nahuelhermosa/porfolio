@@ -49,7 +49,10 @@ my expertise to the backend side by learning Python and Django, developing CRUD 
           >
           <img src="/portadaEscaliburWeb.png" alt="Título 1" className="titulo-img2" />
         </a>
-        <h2 className="descripcion-proyecto">E-commerce built with Next.js, featuring API integration, dynamic CSS, responsive design, and a shopping cart.</h2>
+        <h2 className="descripcion-proyecto">Escalibur Web is a responsive and scalable e-commerce platform developed with Next.js, leveraging component-based architecture and client-side state management.
+The application integrates external data through RESTful APIs (PokeAPI), implementing asynchronous data fetching and dynamic rendering.
+Key features include a fully operational shopping cart, real-time product search and filtering, and a contact form with email validation for improved data integrity.
+The project emphasizes clean UI/UX, dynamic CSS styling, and responsive layouts, resulting in a visually refined and user-friendly experience across multiple devices.</h2>
           <br />
      <h1 className="nombre-proyectos">Servisweb<img src="icono-reac1.png" alt="icono reac" className="icono" /></h1>
         <a
