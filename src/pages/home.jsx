@@ -37,7 +37,7 @@ function Home() {
             <div className="pictur">
               <div className="descripcion">
               <h1 className="nombre">NAHUEL EDUARDO HERMOSA</h1>
-              <h2 className="nombre2"> FULL STACK </h2>
+             
               <br />
               <p className="nombre-descripcion">
           Hi, I'm Nahuel Hermosa
