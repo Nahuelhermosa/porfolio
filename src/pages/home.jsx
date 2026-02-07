@@ -35,21 +35,25 @@ function Home() {
 
 
             <div className="pictur">
-              <div className="descripcion">
+             
+              <div className="descripcion"> 
+                
               <h1 className="nombre">NAHUEL EDUARDO HERMOSA</h1>
              
-              <br />
-              <p className="nombre-descripcion">
-          Hi, I'm Nahuel Hermosa
-I specialize in building dynamic and responsive web applications using Python, React, Next.js, and Vue.js. My expertise lies in creating seamless user experiences by effectively leveraging APIs to enhance functionality and performance.
+              {/* 👇 Nuevo contenedor para texto + imagen */}
+    <div className="about-grid">
+      <p className="nombre-descripcion">
+      Hi, I’m Nahuel Hermosa, a Full Stack Web Developer focused on building modern, responsive web applications using React, Next.js, and Vue.js. I create intuitive user interfaces and integrate APIs to deliver seamless digital experiences.
 
-Recently, I have expanded my skill set into backend development, gaining solid experience with Python and the Django framework. This full-stack perspective allows me to build complete, data-driven web applications — from intuitive front-end interfaces to robust and scalable back-end systems.
-           </p>
+On the backend, I work with Node.js, Express, SQL, and Python (Django), building scalable and data-driven applications. I completed my professional training at Coderhouse, where I strengthened my full stack development skills through hands-on projects and real-world practices.
+      </p>
+
+      <img className="imagen" src="otro2.jpg" alt="Foto de perfil de Nahuel" />
+    </div>
           
-
-             
+<br />
               
-              <h2 className="nombre3">My skills:</h2>
+              <h2 className="nombre3">My skills</h2>
            <div className="logos">
 
             <img src="icono-js.png" alt="icono js" className="icono" />
@@ -63,7 +67,7 @@ Recently, I have expanded my skill set into backend development, gaining solid e
             
                      
            </div>
-
+<br />
            <div className="all-projects">
            <Link className="contacto" to="/titles">
            MY TITLES
@@ -72,9 +76,8 @@ Recently, I have expanded my skill set into backend development, gaining solid e
            MY PROJECTS
            </Link>
            </div>
-           
+            
               </div>
-                <img className="imagen" src="otro2.jpg" alt="" />
             </div>
         <Footer/>
         </> 

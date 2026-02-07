@@ -63,7 +63,7 @@ body {
     rgb(var(--background-end-rgb));
 
     
-    background-image: url('/10-image.jpg'); /* Ruta a tu imagen de fondo */
+    background-image: url('/image-3.jpg'); /* Ruta a tu imagen de fondo */
     background-size: cover; /* Ajusta el tamaño según sea necesario */
     background-position: center;
 }
