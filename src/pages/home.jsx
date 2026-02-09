@@ -39,7 +39,10 @@ function Home() {
               <div className="descripcion"> 
                 
               <h1 className="nombre">NAHUEL EDUARDO HERMOSA</h1>
-             
+              <br />
+              <h2 className="nombre2">professional full stack</h2>
+
+              <br />
               {/* 👇 Nuevo contenedor para texto + imagen */}
     <div className="about-grid">
       <p className="nombre-descripcion">
@@ -54,19 +57,27 @@ On the backend, I work with Node.js, Express, SQL, and Python (Django), building
 <br />
               
               <h2 className="nombre3">My skills</h2>
-           <div className="logos">
+          <div className="logos-wrapper">
+  <div className="logos-track">
+    <img src="icono-js.png" alt="JS" className="icono" />
+    <img src="icono-python2.png" alt="Python" className="icono" />
+    <img src="icono-reac1.png" alt="React" className="icono" />
+    <img src="icono-vue.png" alt="Vue" className="icono" />
+    <img src="icono-nodejs.png" alt="Node" className="icono" />
+    <img src="icono-css.png" alt="CSS" className="icono" />
+    <img src="icono-angular.png" alt="Angular" className="icono" />
 
-            <img src="icono-js.png" alt="icono js" className="icono" />
-           <img src="icono-python2.png" alt="icono html" className="icono" />
-             <img src="icono-reac1.png" alt="icono reac" className="icono" />     
-             <img src="icono-vue.png" alt="icono vue" className="icono" />  
-            <img src="icono-nodejs.png" alt="icono node" className="icono" />
-            <img src="icono-css.png" alt="icono css" className="icono" /> 
-            <img src="icono-angular.png" alt="icono angular" className="icono" />              
-            
-            
-                     
-           </div>
+    {/* Duplicado para efecto infinito */}
+    <img src="icono-js.png" alt="JS" className="icono" />
+    <img src="icono-python2.png" alt="Python" className="icono" />
+    <img src="icono-reac1.png" alt="React" className="icono" />
+    <img src="icono-vue.png" alt="Vue" className="icono" />
+    <img src="icono-nodejs.png" alt="Node" className="icono" />
+    <img src="icono-css.png" alt="CSS" className="icono" />
+    <img src="icono-angular.png" alt="Angular" className="icono" />
+  </div>
+</div>
+
 <br />
            <div className="all-projects">
            <Link className="contacto" to="/titles">
