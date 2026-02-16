@@ -53,16 +53,7 @@ my expertise to the backend side by learning Python and Django, developing CRUD 
 The application integrates external data through RESTful APIs (PokeAPI), implementing asynchronous data fetching and dynamic rendering.
 Key features include a fully operational shopping cart, real-time product search and filtering, and a contact form with email validation for improved data integrity.
 The project emphasizes clean UI/UX, dynamic CSS styling, and responsive layouts, resulting in a visually refined and user-friendly experience across multiple devices.</h2>
-          <br />
-     <h1 className="nombre-proyectos">Servisweb<img src="icono-reac1.png" alt="icono reac" className="icono" /></h1>
-        <a
-      href="https://servis-rust.vercel.app/"
-      target="_blank"
-      rel="noopener noreferrer"
-          >
-          <img src="/portadaServisWeb.png" alt="Título 4" className="titulo-img2" />
-        </a> 
-        <h2 className="descripcion-proyecto">Service-based web application developed with Next.js and pure CSS, implementing responsive design principles and structured component-based architecture. The project includes dynamic navigation across multiple sections (Services, Image Gallery with search filtering, and Contact). The contact form integrates client-side validation and email handling functionality. Designed without authentication or database systems, focusing on performance, clean UI, accessibility, and cross-device compatibility.</h2>
+        
          <br /> 
           
           <h1 className="nombre-proyectos">Vintage Lab<img src="icono-reac1.png" alt="icono reac" className="icono" /></h1>  
@@ -74,7 +65,20 @@ The project emphasizes clean UI/UX, dynamic CSS styling, and responsive layouts,
           <img src="/portadaProyectoReact.png" alt="Título 3" className="titulo-img2" />
         </a> 
         <h2 className="descripcion-proyecto">VintageLab is a React-based e-commerce application built with Vite, implementing component-based architecture and modern state management. The application integrates the Fake Store API to dynamically render randomized featured products on the Home page. It includes a responsive product listing with detailed pricing and shipping information, and a fully functional shopping cart with persistent state handling. The User section incorporates form validation and security best practices, while the Contact module provides email handling functionality. The project focuses on performance optimization, reusable components, responsive UI, and seamless user experience.</h2>
-          <br />
+          
+        <br />
+
+           <h1 className="nombre-proyectos">Servisweb<img src="icono-reac1.png" alt="icono reac" className="icono" /></h1>
+        <a
+      href="https://servis-rust.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+          >
+          <img src="/portadaServisWeb.png" alt="Título 4" className="titulo-img2" />
+        </a> 
+        <h2 className="descripcion-proyecto">Service-based web application developed with Next.js and pure CSS, implementing responsive design principles and structured component-based architecture. The project includes dynamic navigation across multiple sections (Services, Image Gallery with search filtering, and Contact). The contact form integrates client-side validation and email handling functionality. Designed without authentication or database systems, focusing on performance, clean UI, accessibility, and cross-device compatibility.</h2>
+
+        <br />
           <h1 className="nombre-proyectos">La Tienda<img src="icono-angular.png" alt="icono angular" className="icono" /></h1>
          
           <a
@@ -84,8 +88,9 @@ The project emphasizes clean UI/UX, dynamic CSS styling, and responsive layouts,
           >
           <img src="/portadaProyectoAngular.png" alt="Título 2" className="titulo-img2" />
         </a>
-         <h2 className="descripcion-proyecto">E-commerce built with Angular, featuring API integration, user management, and validations</h2>
-          <br />
+         <h2 className="descripcion-proyecto">Developed a fully functional e-commerce application using Angular, integrating the Fake Store API for real-time product data. Implemented user authentication with reactive form validations, dynamic product search, and modular component architecture. The project demonstrates API consumption, state handling, routing, and responsive UI design following clean code and scalable development practices.</h2>
+          
+        <br />
      
 
         </div>
