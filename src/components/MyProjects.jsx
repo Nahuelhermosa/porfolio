@@ -62,7 +62,7 @@ The project emphasizes clean UI/UX, dynamic CSS styling, and responsive layouts,
           >
           <img src="/portadaServisWeb.png" alt="Título 4" className="titulo-img2" />
         </a> 
-        <h2 className="descripcion-proyecto">Website built with Next.js, featuring dynamic CSS, responsive design, contact form, and form validation.</h2>
+        <h2 className="descripcion-proyecto">Service-based web application developed with Next.js and pure CSS, implementing responsive design principles and structured component-based architecture. The project includes dynamic navigation across multiple sections (Services, Image Gallery with search filtering, and Contact). The contact form integrates client-side validation and email handling functionality. Designed without authentication or database systems, focusing on performance, clean UI, accessibility, and cross-device compatibility.</h2>
          <br /> 
           
           <h1 className="nombre-proyectos">Vintage Lab<img src="icono-reac1.png" alt="icono reac" className="icono" /></h1>  
@@ -73,7 +73,7 @@ The project emphasizes clean UI/UX, dynamic CSS styling, and responsive layouts,
           >
           <img src="/portadaProyectoReact.png" alt="Título 3" className="titulo-img2" />
         </a> 
-        <h2 className="descripcion-proyecto">E-commerce built with Vite, featuring API integration, user management, validations, and a shopping cart.</h2>
+        <h2 className="descripcion-proyecto">VintageLab is a React-based e-commerce application built with Vite, implementing component-based architecture and modern state management. The application integrates the Fake Store API to dynamically render randomized featured products on the Home page. It includes a responsive product listing with detailed pricing and shipping information, and a fully functional shopping cart with persistent state handling. The User section incorporates form validation and security best practices, while the Contact module provides email handling functionality. The project focuses on performance optimization, reusable components, responsive UI, and seamless user experience.</h2>
           <br />
           <h1 className="nombre-proyectos">La Tienda<img src="icono-angular.png" alt="icono angular" className="icono" /></h1>
          
