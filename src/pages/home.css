@@ -40,7 +40,7 @@
 }
 
 .nombre {
-  color: #d1ebf7;
+  color: #f6f7f8;
   display: flex;
   justify-content: center;
   font-size: 3.2rem;
@@ -65,9 +65,9 @@
 .nombre-descripcion {
   font-size: 1.2rem;
   line-height: 1.7;
-  color: #cee7f3;
+  color: #fcfdfd;
   font-family: 'Poppins', sans-serif;
-  text-shadow: 1px 1px 5px rgba(114, 123, 128, 0.6);
+  text-shadow: 1px 1px 5px rgba(12, 12, 10, 0.6);
   text-align: left;
   margin-bottom: 1rem;
   max-width: none;
