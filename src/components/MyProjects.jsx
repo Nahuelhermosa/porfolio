@@ -23,10 +23,19 @@ function MyProjects() {
         </header> 
        <main className="main">
         <h1 className="titulo2">My Projects</h1>
+       
         <h2 className="intro-text">
-       This section showcases a curated selection of my frontend and full stack projects developed using React, Next.js, Angular, and Vite. All applications are deployed on Vercel and demonstrate my skills in API integration, responsive design, dynamic styling, user interaction, and modern web development practices.
-my expertise to the backend side by learning Python and Django, developing CRUD applications, implementing authentication systems, and integrating databases and RESTful APIs — further strengthening my capabilities as a full stack developer.
-        </h2>
+This section showcases a curated selection of my frontend and full stack projects built with React, Next.js, Angular, and Vite. All applications are deployed on Vercel and highlight my experience in API integration, responsive design, dynamic styling, user interaction, and modern web development practices.
+
+In these projects, I also expand my expertise into the backend using Node.js, Express, SQL, and Python with Django, developing data-driven applications, CRUD systems, authentication flows, and RESTful API integrations.
+
+Recently, I have incorporated Artificial Intelligence into my development workflow, applying AI-assisted development techniques and integrating LLM-powered features into applications. I work with tools such as Claude Code and OpenCode to design intelligent development workflows, build AI agents, and automate development processes.
+
+Additionally, I use knowledge management systems like Engram to structure project information and create scalable AI workflows, enabling better organization, automation, and smarter development environments.
+
+</h2>
+
+        
 
         <div className="titles-content2">
         <div className="titles-gallery2">
