@@ -1,0 +1,78 @@
+/* Fondo general */
+.access-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Card */
+.access-form {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2.5rem;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 320px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Título */
+.access-title {
+  text-align: center;
+  color: #e2e8f0;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Inputs */
+.access-input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background: #020617;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: 0.3s;
+}
+
+.access-input::placeholder {
+  color: #64748b;
+}
+
+.access-input:focus {
+  border: 1px solid #38bdf8;
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.4);
+}
+
+/* Botón */
+.access-button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #38bdf8;
+  color: #020617;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.access-button:hover {
+  background: #0ea5e9;
+  transform: scale(1.03);
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+  .access-form {
+    width: 90%;
+    padding: 2rem;
+  }
+}

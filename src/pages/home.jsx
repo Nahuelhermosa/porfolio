@@ -45,12 +45,14 @@ function Home() {
               <br />
               {/* 👇 Nuevo contenedor para texto + imagen */}
     <div className="about-grid">
-     <p className="nombre-descripcion">
-Hi, I’m Nahuel Hermosa, a Full Stack Web Developer specialized in building modern, scalable, and responsive web applications using React, Next.js, and Vue.js. I focus on creating intuitive user interfaces and integrating APIs to deliver seamless and high-performance digital experiences.
+ <p className="nombre-descripcion">
+Hi, I’m Nahuel Hermosa, a Full Stack Web Developer specialized in building modern, scalable, and responsive web applications using React, Next.js, and Vue.js. I focus on creating intuitive user interfaces and integrating APIs to deliver seamless, high-performance digital experiences.
 
-On the backend, I work with Node.js, Express, SQL, and Python (Django), developing robust and data-driven systems. I completed my professional training at Coderhouse, where I strengthened my full stack development skills through hands-on projects and real-world practices.
+On the backend, I work with Node.js, Express, SQL, and Python (Django), developing robust, data-driven systems. I completed my professional training at Coderhouse, where I strengthened my full stack development skills through hands-on projects and real-world practices.
 
-Additionally, I integrate Artificial Intelligence into my development workflow and applications. I work with tools such as Claude Code and OpenCode to accelerate development, implement AI-powered features, and build intelligent agents within projects. I also use knowledge management systems like Engram to structure project information and create scalable AI-assisted workflows.
+I incorporate cybersecurity principles into my development process. I have hands-on experience in ethical hacking environments, including vulnerability analysis, and security testing on WordPress-based systems. This allows me to build applications with a security-first mindset, identifying potential risks and implementing safer.
+
+I also integrate Artificial Intelligence into my development workflow and applications, working with tools such as Claude Code and OpenCode to accelerate development, implement AI-powered features, and build intelligent agents. Additionally, I use knowledge management systems like Engram to structure project information and create scalable AI-assisted workflows.
 </p>
       <img className="imagen" src="otro2.jpg" alt="Foto de perfil de Nahuel" />
     </div>
