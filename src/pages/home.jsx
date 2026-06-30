@@ -40,26 +40,36 @@ function Home() {
                 
               <h1 className="nombre">NAHUEL EDUARDO HERMOSA</h1>
               <br />
-              <h2 className="nombre2">professional full stack</h2>
-
+              <h2 className="nombre2">full stack</h2>
               <br />
+  
               {/* 👇 Nuevo contenedor para texto + imagen */}
     <div className="about-grid">
+      <div className="about-card">
  <p className="nombre-descripcion">
 Hi, I’m Nahuel Hermosa, a Full Stack Web Developer specialized in building modern, scalable, and responsive web applications using React, Next.js, and Vue.js. I focus on creating intuitive user interfaces and integrating APIs to deliver seamless, high-performance digital experiences.
 
 On the backend, I work with Node.js, Express, SQL, and Python (Django), developing robust, data-driven systems. I completed my professional training at Coderhouse, where I strengthened my full stack development skills through hands-on projects and real-world practices.
 
-I incorporate cybersecurity principles into my development process. I have hands-on experience in ethical hacking environments, including vulnerability analysis, and security testing on WordPress-based systems. This allows me to build applications with a security-first mindset, identifying potential risks and implementing safer.
+I incorporate cybersecurity principles into my development process. Vulnerability analysis, and security testing on WordPress-based systems.
 
-I also integrate Artificial Intelligence into my development workflow and applications, working with tools such as Claude Code and OpenCode to accelerate development, implement AI-powered features, and build intelligent agents. Additionally, I use knowledge management systems like Engram to structure project information and create scalable AI-assisted workflows.
+I also integrate Artificial Intelligence into my development workflow and applications, working with tools such as Claude Code and OpenCode to accelerate development, implement AI-powered features, and build intelligent agents.
 </p>
+</div>
       <img className="imagen" src="otro2.jpg" alt="Foto de perfil de Nahuel" />
     </div>
+          <br />
+
+           <div className="all-projects">
+            <Link className="contacto" to="/MyProjects">
+           MY PROJECTS
+           </Link>
+           <Link className="contacto" to="/titles">
+           MY TITLES
+           </Link>
           
-<br />
-              
-              <h2 className="nombre3">My skills</h2>
+           </div>
+                      
           <div className="logos-wrapper">
   <div className="logos-track">
     <img src="icono-js.png" alt="JS" className="icono" />
@@ -81,16 +91,6 @@ I also integrate Artificial Intelligence into my development workflow and applic
   </div>
 </div>
 
-<br />
-           <div className="all-projects">
-           <Link className="contacto" to="/titles">
-           MY TITLES
-           </Link>
-           <Link className="contacto" to="/MyProjects">
-           MY PROJECTS
-           </Link>
-           </div>
-            
               </div>
             </div>
         <Footer/>

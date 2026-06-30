@@ -5,7 +5,7 @@ import "./Navbar.css";
 function Navbar() {
     return (
         <nav>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/home">Home</NavLink>
             
             <div className="description" >
                <a className="contacto"

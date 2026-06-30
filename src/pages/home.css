@@ -11,16 +11,7 @@
   flex-wrap: wrap;          /* permite bajar en pantallas chicas */
 }
 
-.imagen {
-  display: block;
-  width: 100%;
-  max-width: 350px;
-  padding: 1.5rem;
-  margin: 2rem auto 0 auto;
-  border-radius: 50%;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
-  object-fit: cover;
-}
+
 
 
 .descripcion {
@@ -30,13 +21,6 @@
  max-width: 1100px;
 }
 
-.about-grid {
-  display: grid;
-  grid-template-columns: 1.2fr 0.8fr; /* texto | imagen */
-  gap: 2rem;
-  align-items: center;
-  margin: 0.5rem ;
-}
 
 .nombre {
   color: #f6f7f8;
@@ -61,18 +45,42 @@
   margin-bottom: 0.5rem;
 }
 
-.nombre-descripcion {
-  font-size: 1rem;
-  line-height: 1.7;
-  color: #fcfdfd;
-  font-family: 'Poppins', sans-serif;
-  text-shadow: 1px 1px 5px rgba(12, 12, 10, 0.6);
-  text-align: left;
-  margin-bottom: 1rem;
-  max-width: none;
-  margin: 0;
-  padding: 0;
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr; /* texto | imagen */
+  gap: 2rem;
+  align-items: center;
+  margin: 0.5rem ;
 }
+
+.about-card {
+  background: linear-gradient(
+    135deg,
+    rgba(17, 25, 39, 0.95),
+    rgba(17, 25, 39, 0.95)
+  );
+
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.4);
+}
+
+.nombre-descripcion {
+  color: #e5e7eb;
+  font-size: 1.05rem;
+  line-height: 1.9;
+}
+.imagen {
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  padding: 1.5rem;
+  margin: 2rem auto 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  object-fit: cover;
+}
+
 
 
 .nombre3 {

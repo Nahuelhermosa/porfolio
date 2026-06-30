@@ -39,6 +39,20 @@ Additionally, I use knowledge management systems like Engram to structure projec
 
         <div className="titles-content2">
         <div className="titles-gallery2">
+           <h1 className="nombre-proyectos">Bar-Premium<img src="icono-vercel1.ico" alt="icono vue" className="icono" /></h1>  
+        <a
+        href="https://bar-premium.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+          >
+          <img src="/bar-premium.png" alt="Título 1" className="titulo-img2" />
+        </a>  
+        <h2 className="descripcion-proyecto">
+          This project features a complete admin dashboard that allows authenticated users to manage menu items through full CRUD functionality. It includes a secure JWT-based authentication system for a master administrator, ensuring controlled access to sensitive operations.
+        On the frontend, the interface is fully responsive and designed with a modern UI approach focused on usability and visual clarity, delivering an optimized experience across both desktop and mobile devices.
+        Technologies used include Next.js, Prisma ORM, and a relational database, with API routes handling backend logic seamlessly within a unified full-stack architecture.
+        This project demonstrates skills in full-stack development, authentication systems, database modeling, and production deployment using Vercel.
+        </h2>
            <h1 className="nombre-proyectos">Escuela Belgrano<img src="icono-python.png" alt="icono vue" className="icono" /></h1>  
         <a
         href="https://proyecto-coder-zfbz.onrender.com/"
@@ -50,7 +64,6 @@ Additionally, I use knowledge management systems like Engram to structure projec
         <h2 className="descripcion-proyecto">
         The School Management System is a full-stack web application developed to efficiently manage academic data within an educational institution. It enables administrators to perform complete CRUD operations for students, teachers, and summer courses. The project features a secure user authentication system, modular architecture, and a responsive, modern design built with Bootstrap.Technologies Used: Django, Python, HTML5, CSS3, Bootstrap, SQLite</h2>
           <h1 className="nombre-proyectos">Escalibur web<img src="icono-vue.png" alt="icono vue" className="icono" /></h1>  
-        
         <a
         href="https://comercio-escalibur.vercel.app/"
         target="_blank"
